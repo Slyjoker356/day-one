@@ -1,0 +1,134 @@
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    background-color: #d9d9d9;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+   padding-left: 160px;
+   padding-top: 100px;
+    color: #B2F400;
+    background-color: #363636;
+    background-size: cover;
+    font-family: 'Moul', serif;
+}
+.navbar {
+    font-family: 'Moul', serif;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+    background-color: #B2F400;
+    background-size: cover;
+    text-decoration: underline;
+    color: black;
+}
+
+ nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 50px;
+}
+
+.paragraph-1, .paragraph-2 {
+    text-align: right;
+    float: right;
+    font-size: 1.5em;
+    padding-right:100px; 
+}
+
+.paragraph-2 {
+    padding-top: 50px;
+}
+h2 {
+    font-size:50px ;
+    text-decoration: underline;
+    margin-left: 200px;
+    padding-top: 100px;
+    font-family: 'Moul', serif;
+}
+
+.paragraph-3 {
+    margin-top: 500px;
+    font-size: 1.5em;
+    padding-left: 150px;
+}
+
+.paragraph-4 {
+    font-size: 1.5em;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.paragraph-5 {
+    font-size:1.5em ;
+    text-align: right;
+    padding-right:150px ;
+}
+
+.paragraph-6 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 200px;
+}
+
+.hard-work {
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 1.3em;
+}
+
+.dedication{
+    font-size: 1.3em;
+}
+
+.deliberate-practice {
+    padding-left: 50px;
+    font-size: 1.3em;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Moul', serif;
+}
+
+.camaro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 10px auto;
+}
+footer {
+    background-color: #363636;
+    padding-bottom: 100px;
+    color: #B2F400;
+}
+
+.contact {
+    font-size:20px ;
+    padding-left: 200px;
+    list-style-type: none
+   }
+
+   main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+}
+.mainpic {
+     width: 10%;
+    margin-left: 350px;
+    -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -o-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg);
+}
+
+
